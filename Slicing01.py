@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s[:4]
+
+s="jjkkdd"
+print(main(s))
