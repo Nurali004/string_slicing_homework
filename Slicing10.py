@@ -8,4 +8,9 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return s[n:k]
+
+s="fjdjjdjencjfj"
+n=int(input("son1:"))
+k=int(input("son2:"))
+print(main(s,n,k))
