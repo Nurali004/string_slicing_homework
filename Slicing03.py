@@ -5,4 +5,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s[0:-1]
+
+s="keepcalm"
+print(main(s))
