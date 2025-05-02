@@ -7,4 +7,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[n:-1]
+
+s="whatareyoudoing"
+n=int(input("sonni kiriting:"))
+print(main(s,n))
